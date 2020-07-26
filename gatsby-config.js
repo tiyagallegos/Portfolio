@@ -6,5 +6,11 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: "Tiya Gallegos", 
+    author: "Tiya Gallegos",
+    theGoat: "Tiya Gallegos",
+    keywords: "web developer, software engineer, web designer"
+  },
+  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-react-helmet-async`]
 }
