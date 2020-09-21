@@ -7,3 +7,23 @@
         padding: 10rem;
     }
 }
+.requests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50px;
+
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 10px;
+    width: 40px;
+
+}
