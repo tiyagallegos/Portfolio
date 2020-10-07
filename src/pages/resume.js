@@ -10,7 +10,7 @@ export default function Home() {
       <h3>Tiya Gallegos</h3>
       <p>Denver, CO 80247 | 714.294.8156 | tiyaagallegos@gmail.com
         www.linkedin.com/in/tiya-gallegos/ | github.com/tiyagallegos | portfoliolink</p>
-      <h4>TECHNICAL SKILLS: </h4>
+      <h4><u>TECHNICAL SKILLS:</u></h4>
         <p><strong>Front-End Development:</strong> HTML, CSS, JavaScript, SASS, SCSS, ES6<br></br>
         <strong>JavaScript Ecosystem:</strong> Webpack, NPM, Gatsby, Netlify, Firebase, Heroku<br></br>
         <strong>Backend Development:</strong> Node, MongoDB, PostgreSQL, Python, Django, Flask<br></br>
@@ -18,7 +18,7 @@ export default function Home() {
         <strong>Version Control:</strong> Git, Github<br></br>
         <strong>Tools:</strong> AWS, Stripe, WebSocket, bCrypt, codepen, visual studio code, Atlas<br></br>
         </p>
-        <h4>WORK EXPERIENCE:</h4>
+        <h4><u>WORK EXPERIENCE:</u></h4>
         <p><strong>Solace Home Healthcare (SLP & Clinical Mentor)</strong>Denver, CO June 2018-Present
             <ul>
                 <li>Provided speech and language services through consultation, inclusion support, and individual instruction</li>
@@ -43,6 +43,11 @@ export default function Home() {
                 <li>Managed and mentored SLPA</li>
             </ul>
         </p>
+        <h4><u>EDUCATION & CERTIFICATES:</u></h4>
+        <p>Software Immersive Engineering, General Assembly<br></br>
+            M.S., Speech Language Pathology, Boston University<br></br>
+            B.S., Speech, Language and Hearing Sciences, Boston University<br></br>
+            Professional Women’s Soccer 2012-2014</p>
 
 
     </Layout>

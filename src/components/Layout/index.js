@@ -35,30 +35,6 @@ export default function Layout({ pageTitle, children }) {
                     <main>
                     {children}
                     </main>
-                    <div className={styles.requests}>
-                    <div> Request 1</div>
-                    <div> Request 2</div>
-                    <div> Request 3</div>
-                    <div> Request 4</div>
-                    <div> Request 5</div>
-                    <div> Request 6</div>
-                    </div>
-                    <section> User: Tiya <br/>
-                            Active: yes<br/>
-                            Details: efqeqefqf<br/>
-                    </section>
-                    <div className={styles.images}>
-                    <img src="https://i.imgur.com/TUQvrsV.jpg"></img>
-                    <img src="https://i.imgur.com/WRoLdLW.jpeg"></img>
-                    <img src="https://i.imgur.com/TUQvrsV.jpg"></img>
-                    <img src="https://i.imgur.com/WRoLdLW.jpeg"></img>
-                    <img src="https://i.imgur.com/TUQvrsV.jpg"></img>
-                    <img src="https://i.imgur.com/WRoLdLW.jpeg"></img>
-                    <img src="https://i.imgur.com/TUQvrsV.jpg"></img>
-                    <img src="https://i.imgur.com/WRoLdLW.jpeg"></img>
-                    <img src="https://i.imgur.com/TUQvrsV.jpg"></img>
-                    <img src="https://i.imgur.com/WRoLdLW.jpeg"></img>
-                    </div>
                 <Footer /> 
             </div>
         </Fragment>

@@ -11,9 +11,9 @@ export default function Footer() {
                 Copyright &copy; {new Date().getFullYear()}            
             </section>
             <section>
-            <a href="https://github.com">
+            <a href="https://github.com/tiyagallegos" target="_blank">
                 <FontAwesomeIcon icon={faGithub} /></a>
-                <a href="htpps://Linkedin.com">
+                <a href="https://www.linkedin.com/in/tiya-gallegos/" target="_blank">
                 <FontAwesomeIcon icon={faLinkedin} /></a>
             </section>
         </footer>
