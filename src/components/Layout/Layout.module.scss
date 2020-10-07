@@ -27,3 +27,13 @@
     width: 40px;
 
 }
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 20px;
+    width:20px;
+}
