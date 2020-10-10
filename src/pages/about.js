@@ -1,6 +1,8 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import Img from 'gatsby-image'
+import zo from '../../public/staticfiles/images/zo.jpg'
+import shot from '../../public/staticfiles/images/shot.jpg'
+import s2 from '../../public/staticfiles/images/s2.jpg'
 
 export default function About() {
     return <Layout pageTitle="About">
@@ -10,8 +12,9 @@ export default function About() {
         I enjoy building real-world, user-friendly applications that create large scale impact. My other hobbies include hiking and kayaking
         with my dog Zorrito, playing instruments including guitar, bass, and saxophone, and playing soccer. 
         </p>
-        <Img title="zo picture" alt="zorrito on a kayak"src={'/img1.jpg'}></Img> />
-        <img title="zo picture" alt="zorrito on a kayak"src='/static/img1.jpg' />
+        <img src={zo} alt="zo"  />
+        <img src={shot} alt="soccer" />
+        <img src={s2} alt="s2" />
 
         </Layout>
 }

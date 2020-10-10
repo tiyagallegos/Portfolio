@@ -1,15 +1,16 @@
 import React from "react"
 import Layout from '../components/Layout'
+import Resume from '../../public/staticfiles/pdf/Resume.pdf'
 
 
 export default function Home() {
   return( 
     <Layout pageTitle="Home">
+      <a href={Resume}>Download Resume</a>
       <h1>Resume & Education</h1>
       <h2>Full Stack Developer</h2>
       <h3>Tiya Gallegos</h3>
-      <p>Denver, CO 80247 | 714.294.8156 | tiyaagallegos@gmail.com
-        www.linkedin.com/in/tiya-gallegos/ | github.com/tiyagallegos | portfoliolink</p>
+      <p>Denver, CO </p>
       <h4><u>TECHNICAL SKILLS:</u></h4>
         <p><strong>Front-End Development:</strong> HTML, CSS, JavaScript, SASS, SCSS, ES6<br></br>
         <strong>JavaScript Ecosystem:</strong> Webpack, NPM, Gatsby, Netlify, Firebase, Heroku<br></br>
