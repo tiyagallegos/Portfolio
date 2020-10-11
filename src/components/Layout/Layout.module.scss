@@ -38,3 +38,57 @@
     height: 20px;
     width:20px;
 }
+
+.resumebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    flex-wrap: wrap;
+}
+.resumehead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    flex-wrap: wrap;
+}
+
+.resumebutton {
+    display: flex;
+    align-items: center;
+    justify-content: justify;
+    width: max-content;
+    background-color: rgb(129, 7, 200);
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.resumebutton:hover {
+    background-color: #555;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: large;
+}
+.resumebutton:visited {
+    background-color: rgb(122, 122, 122);
+}
+.gradpic {
+    display: flex;
+
+    border-radius: 30%;
+    padding: 2px rgb(129, 7, 200);
+    border: 2px solid rgb(129, 7, 200);
+    background-color:rgb(129, 7, 200);
+    width: 15rem;
+    height: auto;
+}
+.resumecontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}

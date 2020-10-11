@@ -1,17 +1,24 @@
 import React from "react"
 import Layout from '../components/Layout'
 import Resume from '../../public/staticfiles/pdf/Resume.pdf'
-
+import grad from '../../public/staticfiles/images/grad.gif'
+import styles from '../components/Layout/Layout.module.scss'
 
 export default function Home() {
   return( 
     <Layout pageTitle="Home">
-      <a href={Resume}>Download Resume</a>
+      <a className={styles.resumebutton} href={Resume}>Download Resume</a><br></br>
+      <div className={styles.resumecontainer}>
+      <div className={styles.resumehead}>
       <h1>Resume & Education</h1>
-      <h2>Full Stack Developer</h2>
-      <h3>Tiya Gallegos</h3>
-      <p>Denver, CO </p>
-      <h4><u>TECHNICAL SKILLS:</u></h4>
+      <h2>Tiya Gallegos</h2>
+      <h3>Full Stack Developer</h3>
+      <h3>Denver, CO </h3>
+      </div>
+      <img className={styles.gradpic} src={grad} alt="grad pic"/>
+      </div> 
+      <div className={styles.resumebox}>
+      <h4><u>TECHNICAL SKILLS</u>:</h4>
         <p><strong>Front-End Development:</strong> HTML, CSS, JavaScript, SASS, SCSS, ES6<br></br>
         <strong>JavaScript Ecosystem:</strong> Webpack, NPM, Gatsby, Netlify, Firebase, Heroku<br></br>
         <strong>Backend Development:</strong> Node, MongoDB, PostgreSQL, Python, Django, Flask<br></br>
@@ -19,7 +26,7 @@ export default function Home() {
         <strong>Version Control:</strong> Git, Github<br></br>
         <strong>Tools:</strong> AWS, Stripe, WebSocket, bCrypt, codepen, visual studio code, Atlas<br></br>
         </p>
-        <h4><u>WORK EXPERIENCE:</u></h4>
+        <h4><u>WORK EXPERIENCE</u>:</h4>
         <p><strong>Solace Home Healthcare (SLP & Clinical Mentor)</strong>Denver, CO June 2018-Present
             <ul>
                 <li>Provided speech and language services through consultation, inclusion support, and individual instruction</li>
@@ -44,14 +51,13 @@ export default function Home() {
                 <li>Managed and mentored SLPA</li>
             </ul>
         </p>
-        <h4><u>EDUCATION & CERTIFICATES:</u></h4>
+        <h4><u>EDUCATION & CERTIFICATES</u>:</h4>
         <p>Software Immersive Engineering, General Assembly<br></br>
             M.S., Speech Language Pathology, Boston University<br></br>
             B.S., Speech, Language and Hearing Sciences, Boston University<br></br>
             Professional Women’s Soccer 2012-2014</p>
-
+    </div>
 
     </Layout>
-
   )
 }
