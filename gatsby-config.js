@@ -57,53 +57,6 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1360,
-              withWebp: true,
-              showCaptions: true,
-              quality: 75,
-              wrapperStyle: `margin: 7vw 0;`
-            }
-          },
-          {
-            resolve: "gatsby-remark-embed-video",
-            options: {
-              width: 800,
-              height: 450,
-              related: false,
-              noIframeBorder: true,
-              allowfullscreen: true
-            }
-          },
-
-          {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`
-            }
-          },
-          {
-            resolve: `gatsby-transformer-remark`,
-            options: {
-              plugins: [`gatsby-remark-responsive-iframe`]
-            }
-          },
-          `gatsby-remark-prismjs`,
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`
-        ]
-      }
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-remark-embed-video`,
-    `gatsby-remark-responsive-iframe`,
-    {
       resolve: `gatsby-plugin-postcss`,
       options: {
         postCssPlugins: [
@@ -114,13 +67,6 @@ module.exports = {
         ]
       }
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `-`
-      }
-    },
-    `gatsby-plugin-feed`,
     
     `gatsby-plugin-netlify`,`gatsby-plugin-sass`, `gatsby-plugin-react-helmet-async`,`gatsby-plugin-modal-routing`,
   `gatsby-transformer-sharp`, `gatsby-plugin-sharp`, `gatsby-plugin-offline`,`gatsby-plugin-smoothscroll`,
