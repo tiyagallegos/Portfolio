@@ -63,20 +63,6 @@ module.exports = {
         name: `content`,
       },
     },
-    {
-      resolve: `gatsby-mdx`,
-      options: {
-        extensions: [".mdx", ".md"],
-        gatsbyRemarkPlugins: [
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 1035,
-              sizeByPixelDensity: true,
-              showCaptions: true,
-              linkImagesToOriginal: false,
-            },
-          },
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
