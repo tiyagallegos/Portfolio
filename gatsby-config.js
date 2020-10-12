@@ -56,17 +56,6 @@ module.exports = {
         name: `heros`
       }
     },
-    {
-      resolve: `gatsby-plugin-postcss`,
-      options: {
-        postCssPlugins: [
-          require("postcss-easy-import")(),
-          require("postcss-custom-properties")({ preserve: false }),
-          require("postcss-color-function")(),
-          require("autoprefixer")({ browsers: ["last 2 versions"] })
-        ]
-      }
-    },
     
     `gatsby-plugin-netlify`,`gatsby-plugin-sass`, `gatsby-plugin-react-helmet-async`,`gatsby-plugin-modal-routing`,
   `gatsby-transformer-sharp`, `gatsby-plugin-sharp`, `gatsby-plugin-offline`,`gatsby-plugin-smoothscroll`,
