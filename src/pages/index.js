@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from '../components/Layout'
-import profile from '../../public/staticfiles/images/profile.jpg'
+import profile from '../../public/static/images/profile.jpg'
 import styles from '../components/Layout/Layout.module.scss'
 
 
