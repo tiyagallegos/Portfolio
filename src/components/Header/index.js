@@ -6,7 +6,7 @@ export default function Header({ title }) {
     return(
         
         <header className={styles.Header}>
-            <h1>{ title }</h1>
+            <Link to="/"><h1>{ title }</h1></Link>
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>

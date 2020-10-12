@@ -3,19 +3,42 @@
     align-items: center;
     justify-content: space-evenly;
     margin: 0;
+    color: black;
+    background-color: white;
+    text-decoration: none;
     
     h1 {
         margin: 0;
+        color: black;
+        font-size: 80px;
+        text-decoration: none;
+    }
+        h1:hover {
+                text-decoration: none;
+                font-size: 85px;
+                background-color: black;
+                color:white;
 
     }
     nav {
         align-items: center;
         margin: 0;
+        text-decoration: none;
+        
+                
+        }
         a{
             text-decoration: none;
             margin-left: 1rem;
-            color: #000;
+            color: black;
+            font-size: 20px;
         }
+        a:hover {
+                text-decoration: none;
+                background-color: black;
+                color:white;
+                font-size: x-large;
+                font-weight: bolder;
     }
 }
 

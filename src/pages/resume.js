@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from '../components/Layout'
 import Resume from '../../public/static/pdf/Resume.pdf'
-import grad from '../../public/static/images/grad.gif'
+import gcap from '../../public/static/images/gcap.jpg'
 import styles from '../components/Layout/Layout.module.scss'
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <h3>Full Stack Developer</h3>
       <h3>Denver, CO </h3>
       </div>
-      <img className={styles.gradpic} src={grad} alt="grad pic"/>
+      <img className={styles.gradpic} src={gcap} alt="grad pic"/>
       </div> 
       <div className={styles.resumebox}>
       <h4><u>TECHNICAL SKILLS</u>:</h4>

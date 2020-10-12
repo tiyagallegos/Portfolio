@@ -2,6 +2,7 @@ import React from "react"
 import Layout from '../components/Layout'
 import profile from '../../public/static/images/profile.jpg'
 import styles from '../components/Layout/Layout.module.scss'
+import { Link } from 'gatsby'
 
 
 export default function Home() {
@@ -10,10 +11,16 @@ export default function Home() {
       <div className={styles.indexcontainer}>
       <div className={styles.profileheader}>
       <h1>Tiya Gallegos</h1>
+      </div>
+    
+      <Link to="/about"><img className={styles.profilepic} src={profile} alt="profile pic"/></Link> 
+      
+      <div classname={styles.h2index}>
       <h2>Full Stack Developer</h2>
+      </div>
+      <div classname={styles.profblurb}>
       <p>A data centric developer with a detail-oriented lens and a passion for art across multiple mediums. I blend innovation and creativity with functionality to find effective solutions to large-scale problems.</p>
       </div>
-      <img classname={styles.profilepic} src={profile} alt="profile pic"/>
     </div>
     </Layout>
 

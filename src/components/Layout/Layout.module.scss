@@ -1,8 +1,10 @@
 .Layout {
-    background-color: lavender;
+    text-decoration: none;
+    background-color: black;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    color: white;
     main{
         flex-grow: 1;
         padding: 10rem;
@@ -15,6 +17,7 @@
     align-items: center;
     flex-wrap: wrap;
     height: 50px;
+    color: white;
 
 }
 
@@ -35,11 +38,12 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    border: 5px solid purple;
-    border-radius: 15px;
+    border: 5px solid white;
+    border-radius: 50%;
     width: 20rem;
     height: 20rem;
     position: relative;
+    color: white;
 }
 
 .resumebox {
@@ -48,6 +52,7 @@
     justify-content: center;
     align-items: justify;
     flex-wrap: wrap;
+    color: white;
 }
 .resumehead {
     display: flex;
@@ -55,6 +60,7 @@
     justify-content: center;
     align-items: justify;
     flex-wrap: wrap;
+    color: white;
 }
 
 .resumebutton {
@@ -62,50 +68,43 @@
     align-items: center;
     justify-content: justify;
     width: max-content;
-    background-color: rgb(129, 7, 200);
-    color: white;
+    color: black;
+    background-color: white;
     padding: 1em 1.5em;
     text-decoration: none;
     border-radius: 15px;
     text-transform: uppercase;
 }
 .resumebutton:hover {
-    background-color: #555;
+    background-color: rgb(149, 118, 7);
     cursor: pointer;
-    font-weight: 800;
-    font-size: large;
+    font-weight: 900;
+    font-size: larger;
 }
 .resumebutton:visited {
-    background-color: rgb(122, 122, 122);
+    background-color: rgb(149, 118, 7);
 }
 .projectbutton {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 20rem;
-    background-color: rgb(129, 7, 200);
-    color: white;
+    color:rgb(149, 118, 7) ;
     padding: 1em 1.5em;
     text-decoration: none;
     border-radius: 15px;
     text-transform: uppercase;
 }
 .projectbutton:hover {
-    background-color: #555;
     cursor: pointer;
     font-weight: 800;
-    font-size: large;
-}
-.projectbutton:visited {
-    background-color: rgb(129, 7, 200);
+    font-size: x-large;
 }
 
 .gradpic {
     display: flex;
-    border-radius: 30%;
-    padding: 2px rgb(129, 7, 200);
-    border: 2px solid rgb(129, 7, 200);
-    background-color:rgb(129, 7, 200);
+    border-radius: 50%;
+    border: 2px solid black;
     width: 15rem;
     height: auto;
 }
@@ -118,18 +117,32 @@
 }
 .indexcontainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 
 }
-.profilepic {
+.pp {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    border: 2px solid white;
+}
+.profilepic {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.profilepic:hover {
+    border: 10px solid rgb(149, 118, 7);
 }
 .profileheader {
     display: flex;
@@ -143,4 +156,109 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+}
+.pictainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.aboutpic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    padding: 20px;
+    margin: 25px;
+    font-size: larger;
+}
+.contactform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: justify;   
+}
+.eform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    flex-wrap: wrap;
+    border-radius: 15%;
+    position: relative;
+    padding: 10px;
+}
+.ebuttons {
+    font-size: medium;
+    width: 80px;
+    height: 80px;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 50%;
+}
+.ebuttons:hover{
+    background-color: rgb(149, 118, 7);
+    font-size: larger;
+    width: 100px;
+    height: 100px;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+.contactlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: justify;
+    align-items: justify;
+    flex-wrap: wrap;
+    font-size: 100px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 40px;
+    border-radius: 15%;
+}
+.contactlinks:hover{
+    color: rgb(149, 118, 7);
+    font-size: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    align-items: justify;
+    flex-wrap: wrap;
+}
+.contactainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    position: relative;
+    padding: 20px;
+    margin: 25px;
+    margin-bottom: 20px;
+    font-size: larger;
 }

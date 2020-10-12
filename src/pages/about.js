@@ -1,20 +1,25 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import zo from '../../public/static/images/zo.jpg'
+import kayak from '../../public/static/images/zokayak.jpg'
 import shot from '../../public/static/images/shot.jpg'
-import s2 from '../../public/static/images/s2.jpg'
+import plant from '../../public/static/images/plant.jpg'
+import styles from '../components/Layout/Layout.module.scss'
+
 
 export default function About() {
     return <Layout pageTitle="About">
+        <div className={styles.about}>
         <h1>About Me</h1>
         <p>I'm a full stack developer with a background in speech pathology: pediatric feeding and complex medical cases.
-        I take a data centric approach to my work and focusing on long-term solutions, efficiency, and scalability.
+        I take a data centric approach to my work focusing on long-term solutions, efficiency, and scalability.
         I enjoy building real-world, user-friendly applications that create large scale impact. My other hobbies include hiking and kayaking
-        with my dog Zorrito, playing instruments including guitar, bass, and saxophone, and playing soccer. 
+        with my dog Zorrito, playing guitar, growing my urban garden, and playing soccer. 
         </p>
-        <img src={zo} alt="zo"  />
-        <img src={shot} alt="soccer" />
-        <img src={s2} alt="s2" />
-
+        </div>
+        <div className={styles.pictainer}>
+        <img className={styles.aboutpic} src={kayak} alt="zo"  />
+        <img className={styles.aboutpic} src={shot} alt="soccer" />
+        <img className={styles.aboutpic} src={plant} alt="s2" />
+        </div>
         </Layout>
 }

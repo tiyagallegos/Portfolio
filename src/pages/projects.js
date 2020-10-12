@@ -14,16 +14,16 @@ export default function Projects() {
       <h4 className={styles.projects}>GYB
       <a className={styles.projectbutton} href="https://got-yo-back-p3.herokuapp.com/" target="_blank">View</a></h4>
       <h4 className={styles.projects}>Rooting For You
-      https://github.com/tiyagallegos/Rooting-for-You
+      <a className={styles.projectbutton} href="https://github.com/tiyagallegos/Rooting-for-You" target="_blank">View</a>
       </h4>
       <h4 className={styles.projects}>Star Wars React
-      https://github.com/tiyagallegos/react-star-wars
+      <a className={styles.projectbutton} href="https://github.com/tiyagallegos/react-star-wars">View</a>
       </h4>
       <h4 className={styles.projects}>Yummy!
-      https://p2-yummy.herokuapp.com/
+      <a className={styles.projectbutton} href="https://p2-yummy.herokuapp.com/">View</a>
       </h4>
       <h4 className={styles.projects}>RiRi on Reapeat
-      https://github.com/tiyagallegos/tiyagallegos.github.io
+      <a className={styles.projectbutton} href="https://github.com/tiyagallegos/tiyagallegos.github.io">View</a>
       </h4>
       </div>
     </Layout>
