@@ -63,26 +63,6 @@ module.exports = {
         name: `content`,
       },
     },
-          {
-            resolve: `gatsby-remark-prismjs`,
-            options: {
-              classPrefix: "language-",
-              inlineCodeMarker: null,
-              aliases: {},
-            },
-          },
-          {
-            resolve: "gatsby-remark-external-links",
-            options: {
-              target: null,
-              rel: "nofollow noopener noreferrer external",
-            },
-          },
-          `gatsby-remark-slug`,
-        ],
-      },
-    },
-    
     `gatsby-plugin-netlify`,`gatsby-plugin-sass`, `gatsby-plugin-react-helmet-async`,`gatsby-plugin-modal-routing`,
   `gatsby-transformer-sharp`, `gatsby-plugin-sharp`, `gatsby-plugin-offline`,`gatsby-plugin-smoothscroll`,
 
