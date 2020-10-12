@@ -1,8 +1,8 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import zo from '../../public/staticfiles/images/zo.jpg'
-import shot from '../../public/staticfiles/images/shot.jpg'
-import s2 from '../../public/staticfiles/images/s2.jpg'
+import zo from '../../public/static/images/zo.jpg'
+import shot from '../../public/static/images/shot.jpg'
+import s2 from '../../public/static/images/s2.jpg'
 
 export default function About() {
     return <Layout pageTitle="About">
