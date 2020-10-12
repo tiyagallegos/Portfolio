@@ -27,7 +27,7 @@ module.exports = {
     theGoat: "Tiya Gallegos",
     keywords: "web developer, software engineer, web designer"
   },
-  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-react-helmet-async`,`gatsby-plugin-modal-routing`,
+  plugins: [`gatsby-plugin-netlify`,`gatsby-plugin-sass`, `gatsby-plugin-react-helmet-async`,`gatsby-plugin-modal-routing`,
   `gatsby-transformer-sharp`, `gatsby-plugin-sharp`,
 ]
 }
