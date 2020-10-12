@@ -22,7 +22,7 @@ export default function Home() {
       <h2>Full Stack Developer</h2>
       </div>
       <div classname={styles.profblurb}>
-      <p>A data centric developer with a detail-oriented lens and a passion for art across multiple mediums. I blend innovation and creativity with functionality to find effective solutions to large-scale problems.</p>
+      <p>A data centric developer with a detail-oriented lens. I blend innovation and creativity with functionality to find effective solutions to large-scale problems.</p>
       </div>
       <h3>Technologies:</h3>
       <p>React, JavaScript, CSS, HTML, Node.js, Express, MongoDB, Python, AWS, Django, Flask, jQuery, PostgreSQL</p>
