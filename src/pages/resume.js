@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from '../components/Layout'
 import Resume from '../../public/static/pdf/Resume.pdf'
-import grad from '../../public/static/images/grad.js'
+import grad from '../../public/static/images/grad.gif'
 import styles from '../components/Layout/Layout.module.scss'
 
 export default function Home() {
