@@ -35,8 +35,11 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 20px;
-    width:20px;
+    border: 5px solid purple;
+    border-radius: 15px;
+    width: 20rem;
+    height: 20rem;
+    position: relative;
 }
 
 .resumebox {
@@ -75,9 +78,30 @@
 .resumebutton:visited {
     background-color: rgb(122, 122, 122);
 }
+.projectbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    background-color: rgb(129, 7, 200);
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.projectbutton:hover {
+    background-color: #555;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: large;
+}
+.projectbutton:visited {
+    background-color: rgb(129, 7, 200);
+}
+
 .gradpic {
     display: flex;
-
     border-radius: 30%;
     padding: 2px rgb(129, 7, 200);
     border: 2px solid rgb(129, 7, 200);
@@ -91,4 +115,32 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+.indexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.profilepic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.profileheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.projectcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
