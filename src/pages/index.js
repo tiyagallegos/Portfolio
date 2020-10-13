@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from '../components/Layout'
-import profile from '../../public/static/images/profile.jpg'
+import profile from './profile.jpg'
 import styles from '../components/Layout/Layout.module.scss'
 import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

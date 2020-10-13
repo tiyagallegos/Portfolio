@@ -1,8 +1,8 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import kayak from '../../public/static/images/zokayak.jpg'
-import shot from '../../public/static/images/shot.jpg'
-import plant from '../../public/static/images/plant.jpg'
+import kayak from './zokayak.jpg'
+import shot from './shot.jpg'
+import plant from './plant.jpg'
 import styles from '../components/Layout/Layout.module.scss'
 
 

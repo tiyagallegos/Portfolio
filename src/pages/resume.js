@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from '../components/Layout'
-import Resume from '../../public/static/pdf/Resume.pdf'
-import gcap from '../../public/static/images/gcap.jpg'
+import Resume from './Resume.pdf'
+import gcap from './gcap.jpg'
 import styles from '../components/Layout/Layout.module.scss'
 
 export default function Home() {
