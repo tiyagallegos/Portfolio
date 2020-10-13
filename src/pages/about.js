@@ -10,9 +10,9 @@ export default function About() {
     return <Layout pageTitle="About">
         <div className={styles.about}>
         <h1>About Me</h1>
-        <p>I'm a full stack developer with a background in speech pathology: pediatric feeding and complex medical cases.
-        I take a data centric approach to my work focusing on long-term solutions, efficiency, and scalability.
-        I enjoy building real-world, user-friendly applications that create large scale impact. My other hobbies include hiking and kayaking
+        <p>I am a full stack developer with a background in speech pathology specializing in pediatric feeding and complex medical cases.
+        I take a data-centric approach to my work focusing on long-term solutions, efficiency, and scalability.
+        I enjoy building user-friendly applications that create large scale impact across all populations. My hobbies include kayaking
         with my dog Zorrito, playing guitar, growing my urban garden, and playing soccer. 
         </p>
         </div>

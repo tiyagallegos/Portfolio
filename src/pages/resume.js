@@ -7,7 +7,7 @@ import styles from '../components/Layout/Layout.module.scss'
 export default function Home() {
   return( 
     <Layout pageTitle="Home">
-      <a className={styles.resumebutton} href={Resume}>Download Resume</a><br></br>
+      <a className={styles.resumebutton} target="_blank" href={Resume}>Download Resume</a><br></br>
       <div className={styles.resumecontainer}>
       <div className={styles.resumehead}>
       <h1>Resume & Education</h1>
@@ -27,14 +27,14 @@ export default function Home() {
         <strong>Tools:</strong> AWS, Stripe, WebSocket, bCrypt, codepen, visual studio code, Atlas<br></br>
         </p>
         <h4><u>WORK EXPERIENCE</u>:</h4>
-        <p><strong>Solace Home Healthcare (SLP & Clinical Mentor)</strong>Denver, CO June 2018-Present
+        <p><strong>Solace Home Healthcare (SLP & Clinical Mentor) </strong>Denver, CO June 2018-Present
             <ul>
                 <li>Provided speech and language services through consultation, inclusion support, and individual instruction</li>
                 <li>Administered individual evaluations, developed treatment plans, and carried out treatment plans in individual settings</li>
                 <li>Clinical Mentor - Facilitated meetings involving chart audits, clinician support, and collaborative multidisciplinary problem solving</li>
             </ul>
         </p>
-        <p><strong>Let’s Talk Therapy Clinical Manager (Management & SLP Supervisor)</strong>Duluth, GA June 2016-May 2018
+        <p><strong>Let’s Talk Therapy Clinical Manager (Management & SLP Supervisor) </strong>Duluth, GA June 2016-May 2018
             <ul>
                 <li>Provided speech and language services through consultation, inclusion support, and individual instruction</li>
                 <li>Administered individual evaluations, developed treatment plans, and carried out treatment plans in individual settings</li>
@@ -43,7 +43,7 @@ export default function Home() {
                 <li>In-service coordinator and presenter; Community outreach consultant and coordinator</li>
             </ul>
         </p>
-        <p><strong>Denver Public Schools (Full Time SLP and Supervisor)</strong>Denver, CO July 2015-June 2016
+        <p><strong>Denver Public Schools (Full Time SLP and Supervisor) </strong>Denver, CO July 2015-June 2016
             <ul>
                 <li>Provided speech and language services through consultation, inclusion support, small group and individual instruction</li>
                 <li>Administered individual evaluations, developed treatment plans, and carried out treatment plans in group/individual settings</li>

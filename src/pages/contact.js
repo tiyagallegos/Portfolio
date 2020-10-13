@@ -12,7 +12,7 @@ export default function Contact() {
       <div className={styles.contactainer}></div>
       <h1>Contact Me</h1>
       <h2>Email: tiyaagallegos@gmail.com</h2>
-      <h2>Phone: 714.294.8156</h2>
+      <h2>Phone: 714-294-8156</h2>
       <section>
           <a className={styles.contactlinks} href="https://github.com/tiyagallegos" target="_blank">
             <FontAwesomeIcon icon={faGithub} /></a>
