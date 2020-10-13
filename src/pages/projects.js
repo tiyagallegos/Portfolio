@@ -8,7 +8,7 @@ import styles from '../components/Layout/Layout.module.scss'
 export default function Projects() {
   return( 
     <Layout pageTitle="Projects">
-      <h1>Projects</h1>
+      <h1 className={styles.projectsh1}>Projects</h1>
       <div className={styles.projectcontainer}>
       <h4 className={styles.projects}>Exchange
       <a className={styles.projectbutton} href="https://cyberpunk-exchange.herokuapp.com/" target="_blank">View</a>

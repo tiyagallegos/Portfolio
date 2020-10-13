@@ -1,16 +1,16 @@
 import React from "react"
 import Layout from '../components/Layout'
-import Resume from './Resume.pdf'
+import Resume from './ResumeT.pdf'
 import gcap from './gcap.jpg'
 import styles from '../components/Layout/Layout.module.scss'
 
 export default function Home() {
   return( 
     <Layout pageTitle="Home">
+      <h1 className={styles.projectsh1}>Resume & Education</h1>
       <a className={styles.resumebutton} target="_blank" href={Resume}>Download Resume</a><br></br>
       <div className={styles.resumecontainer}>
       <div className={styles.resumehead}>
-      <h1>Resume & Education</h1>
       <h2>Tiya Gallegos</h2>
       <h3>Full Stack Developer</h3>
       <h3>Denver, CO </h3>
