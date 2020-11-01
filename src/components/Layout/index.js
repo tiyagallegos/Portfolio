@@ -5,7 +5,7 @@ import Header from '../Header'
 import Footer from '../Footer'
 import '../../styles/reset.scss'
 import styles from './Layout.module.scss'
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 export default function Layout({ pageTitle, children }) {
