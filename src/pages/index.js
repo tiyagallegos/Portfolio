@@ -39,7 +39,6 @@ export default function Home() {
       <div className={styles.tech}><FontAwesomeIcon icon={faPython}/></div>
       <div className={styles.tech}><FontAwesomeIcon icon={faAws}/></div>
       <div className={styles.tech}><FaFlask/></div>
-      <div className={styles.tech}><DiDjango/></div>
       <div className={styles.tech}><DiSass/></div>
       <div className={styles.tech}><SiDjango/></div>
       <div className={styles.tech}><SiPostgresql/></div>
