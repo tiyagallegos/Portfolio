@@ -13,12 +13,17 @@
         color: black;
         font-size: 80px;
         text-decoration: none;
+        transition: all 1s;
+        transition-property: all;
+        transition-property: transform;
     }
         h1:hover {
                 text-decoration: none;
                 font-size: 85px;
                 background-color: black;
                 color:white;
+                transition: all 1s;
+                transform: scale(1);
 
     }
     nav {
@@ -33,6 +38,9 @@
             margin-left: 1rem;
             color: black;
             font-size: 20px;
+            transition: all 1s;
+            transition-property: all;
+            transition-property: transform;
         }
         a:hover {
                 text-decoration: none;
@@ -40,6 +48,8 @@
                 color:white;
                 font-size: x-large;
                 font-weight: bolder;
+                transition: all 1s;
+                transform: scale(1.5);
     }
 }
 

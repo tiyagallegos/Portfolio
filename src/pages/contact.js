@@ -9,6 +9,7 @@ import styles from '../components/Layout/Layout.module.scss'
 
 
 
+
 export default function Contact() {
   return( 
     <Layout pageTitle="Contact">
