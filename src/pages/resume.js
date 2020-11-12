@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from '../components/Layout'
-import Resume from './ResumeT.pdf'
+import Resume from './TGResume.pdf'
 import gcap from './gcap.jpg'
 import styles from '../components/Layout/Layout.module.scss'
 
